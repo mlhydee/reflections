@@ -5,4 +5,17 @@ Initializing a repository turns a standard directory into a git repo, where comm
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area is a place to put files before they are committed. This is useful if you have a number of files that you
-would like to commit together without committing them separately (e.g. html/css). 
+would like to commit together without committing them separately (e.g. html/css).
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches together adds a new feature/bug fix that may have been introduced as an experiment or created by another person. These can
+then be merged into the master branch once successfully completed and is a good way to ensure that code is backed up and big changes
+will not affect the main code. We represent merges in this way as it is easy to read and accurate.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatically merging a branch is a lot faster and is safe. If you are confident about what is being committed and/or you are not
+working with another person then it is best to merge automatically. Merging manually is better when you are collaborating
+with another person who may be making different changes to the same feature/bug fix. It is better to discuss what line will be
+best to keep in a merge and what line can be deleted.
