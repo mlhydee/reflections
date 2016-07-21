@@ -12,4 +12,9 @@ Forks clone a copy of another repo from github, clones clone a repo from your lo
 the file which once was considered the master branch.
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
+
 Incase the copy on github is changed, it is a way to back up your work.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Collaborate using code etc. It would be easier because of pull requests, but it can become quite a tedious amount of work after a while.
